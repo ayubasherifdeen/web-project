@@ -1,0 +1,297 @@
+<!DOCTYPE>
+<html>
+	<head>
+	<title>Search</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="art gallery">
+		<meta name="keyword" content="art, gallery, digital art">
+		<style type = "text/css">
+		
+		body{
+				 background-color: black;
+		}
+			
+		.topnav{
+				position: absolute;
+				top: 15px;
+				right: 20px;
+				margin: 10px
+		
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			width: 370px;
+			postion: absolute;
+			top: 20px;
+			right:5px;
+			float: right
+		}
+
+		li {
+			float: left;
+			
+			
+		}
+		
+		.welcome_page_header{
+							 font-family: Broadway;
+							 font-size: 30px;
+							 color: white;
+		}
+		
+		#commission{
+						position: absolute;
+						top: 140px;
+						left: 11px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#brown_skin_girl{
+							 position: absolute;
+						     top: 140px;
+						     left:390px;
+							
+							 padding: 10px;
+							 margin: 10px;
+			}
+			
+			#car_trunk{
+						position: absolute;
+						top: 140px;
+						left:770px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#polyester{
+						position: absolute;
+						top: 540px;
+						left: 11px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#protest{
+							 position: absolute;
+						     top: 540px;
+						     left:390px;
+							 border: 10px;
+							 padding: 10px;
+							 margin: 10px;
+			}
+			
+			#nature_girl{
+						position: absolute;
+						top: 540px;
+						left:770px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#slimm{
+						position: absolute;
+						top: 980px;
+						left: 11px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#tems{
+							 position: absolute;
+						     top: 980px;
+						     left:390px;
+							 border: 10px;
+							 padding: 10px;
+							 margin: 10px;
+			}
+			
+			#mirror{
+						position: absolute;
+						top: 980px;
+						left:770px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#tweeps{
+						position: absolute;
+						top: 1400px;
+						left: 11px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}
+			
+			#twitter{
+							 position: absolute;
+						     top: 1400px;
+						     left:390px;
+							 border: 10px;
+							 padding: 10px;
+							 margin: 10px;
+			}	
+
+			#glare{
+						position: absolute;
+						top: 1400px;
+						left:770px;
+						border: 10px;
+						padding: 10px;
+						margin: 10px;
+			}			
+			
+			#active {
+					background-color: #04AA6D;
+		}
+			
+		.description{
+						padding: 5px;
+						color: white;
+						font-size: 20px;
+						text-align: center;
+						margin-left: 10px;
+						margin-right: 10px;
+		}
+			
+
+		a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+		background-color: #111;
+		}
+
+		.active {
+					background-color: #04AA6D;
+		}
+		
+		.search_box{
+						position: absolute;
+						top: 90px;
+						left: 30%;
+						width: 50%;
+						margin: 10px;
+		}
+		#searchInput {
+					
+					width: 100%;
+					font-size: 16px;
+					padding: 12px 20px 12px 40px;
+					border: 1px solid #ddd;
+					margin-bottom: 12px;
+		}
+
+		
+		.arts a:hover:not(.header) {
+										background-color: #eee;
+		}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="topnav">
+			<ul>
+				<li ><a href="home page.html">HOME</a></li>
+				<li><a href="art_gallery.html">GALLERY</a></li>
+				<li class = "active"><a href="search page.html">SEARCH</a></li>
+				<li ><a href="about_slimm.html">ABOUT</a></li>
+			</ul>
+		</div>
+		
+	
+		<div class="welcome_page_header">SLIMM'S</div>
+		<br>
+		<div class="welcome_page_header" id = "gallery">GALLERY</div>
+		<div class = "search_box">
+			<input type="text" id="searchInput" placeholder="Search for art... " />
+		</div>
+		<div class = "arts">
+			<div class  = "image" id = "commission" data-name = "Arts Commission">
+				<a target = "_blank" href = "arts commission.JPEG"><img src = "Arts Commission.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Arts Commission</div>
+			</div>
+			<div class  = "image" id = "brown_skin_girl" data-name = "Brown Skin Girl">
+				<a target ="_blank" href = "Brown Skin Girl.JPEG"><img src = "Brown Skin Girl.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Brown Skin Girl</div>
+			</div>
+			
+			<div class  = "image" id = "car_trunk" data-name = "In the Car Trunk">
+				<a target = "_blank" href ="Car Trunk.JPEG" ><img src = "Car Trunk.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> In the Car Trunk</div>
+			</div>
+			
+			<div class  = "image" id = "polyester" data-name = "Its Just Polyester">
+				<a target = "_blank" href = "it's just polyester.JPEG"><img src = "it's just polyester.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> It's Just Polyester</div>
+			</div>
+			
+			<div class  = "image" id = "protest" data-name = "Protesting Girl">
+				<a target = "_blank" href = "protesting girl.JPEG"><img src = "protesting girl.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Protesting Girl</div>
+			</div>
+			
+			<div class  = "image" id = "nature_girl" data-name = "Nature's Girl">
+				<a target = "_blank" href ="nature'sgirl.JPEG"><img src = "nature'sgirl.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Nature's Girl</div>
+			</div>
+			
+			<div class  = "image" id = "slimm" data-name = "Slimm Writes">
+				<a target = "_blank" href = ""><img src = "slimm writes.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Slimm Writes</div>
+			</div>
+			
+			<div class  = "image" id = "tems" data-name = "Tems">
+				<a target = "_blank" href = "tems.JPEG"  ><img src = "tems.jpeg" height = "350px" width = "350px"></a>
+				<div class = "description"> Tems</div>
+			</div>
+			
+			<div class  = "image" id = "mirror" data-name = "Mirror Picture">
+				<a target= "_blank" href = "mirror picture.JPEG" ><img src = "mirror picture.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Mirror Picture</div>
+			</div>
+			
+			<div class  = "image" id = "tweeps" data-name = "Tweeps Faces">
+				<a target = "_blank" href = "tweeps faces.JPEG"><img src = "tweeps faces.JPEG" height = "350px" width = "350px"></a>
+				<div id = "description"> Tweeps Faces</div>
+			</div>
+			
+			<div class  = "image" id = "twitter" data-name = "Twitter Art">
+				<a target = "_blank" href = "twitter art.JPEG"><img src = "twitter art.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description">Twitter Art </div>
+			</div>
+			
+			<div class  = "image" id = "glare" data-name = "Glare">
+				<a target  = "_blank" href = "glare.JPEG"><img src = "glare.JPEG" height = "350px" width = "350px"></a>
+				<div class = "description"> Glare</div>
+			</div>
+			
+			
+			
+			
+		</div>
+	
+	
+
+		<script src = "search gallery.js">
+		</script>
+	</body>
+</html> 
